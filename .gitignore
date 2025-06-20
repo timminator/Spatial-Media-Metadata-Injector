@@ -6,3 +6,5 @@ __pycache__/
 /spatialmedia.egg-info/
 /spatialmedia/gui.dist/
 /spatialmedia/gui.build/
+cli_wrapper.dist/
+cli_wrapper.build/
