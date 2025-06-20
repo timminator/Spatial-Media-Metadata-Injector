@@ -385,6 +385,8 @@ def main():
     root.tk.call('tk', 'scaling', 2.0)
 
     if platform.system() == "Windows":
+        myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
         root.iconbitmap("Spatial Media Metadata Injector.ico")
     else:
         root.iconphoto(False, tk.PhotoImage(file="Spatial Media Metadata Injector.png"))
