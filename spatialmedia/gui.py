@@ -19,13 +19,13 @@
 # Nuitka compile commands
 # nuitka-project: --standalone
 # nuitka-project: --enable-plugin=tk-inter
-# nuitka-project: --windows-console-mode=disable
 # nuitka-project: --output-filename=Spatial Media Metadata Injector
 # nuitka-project: --include-data-files=*.ico=Spatial Media Metadata Injector.ico
 # nuitka-project: --include-data-files=*.png=Spatial Media Metadata Injector.png
 
 # Windows-specific compile commands
 # nuitka-project-if: {OS} == "Windows":
+#     nuitka-project: --windows-console-mode=disable
 #     nuitka-project: --windows-icon-from-ico=Spatial Media Metadata Injector.ico
 
 
