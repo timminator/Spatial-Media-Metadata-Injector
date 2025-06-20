@@ -367,6 +367,7 @@ def report_callback_exception(self, *args):
 
 def main():
     root = tk.Tk()
+    root.resizable(False, False)
     root.tk.call('tk', 'scaling', 2.0)
 
     if platform.system() == "Windows":
