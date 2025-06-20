@@ -1,6 +1,8 @@
 *.pyc
-__pycache__
-/.venv
-/dist
-/build
-
+__pycache__/
+/.venv/
+/dist/
+/build/
+/spatialmedia.egg-info/
+/spatialmedia/gui.dist/
+/spatialmedia/gui.build/
