@@ -368,6 +368,12 @@ def report_callback_exception(self, *args):
 def main():
     root = tk.Tk()
     root.tk.call('tk', 'scaling', 2.0)
+
+    if platform.system() == "Windows":
+        root.iconbitmap("Spatial Media Metadata Injector.ico")
+    else:
+        root.iconphoto(False, tk.PhotoImage(file="Spatial Media Metadata Injector.png"))
+
     tk.report_callback_exception = report_callback_exception
     app = Application(master=root)
     app.mainloop()
