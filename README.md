@@ -8,7 +8,8 @@
 
 ## ℹ About
 
-This repo provides an updated binary release with a few more bug fixes in comparison to the upstream repository for Windows and Linux. Binaries for the CLI version are also provided.
+This repository provides an updated binary release with a few more bug fixes in comparison to the upstream repository for Windows and Linux. An easy to follow setup installer for Windows was created aswell.
+Binaries for the CLI version are also provided.
 
 # Spatial Media Metadata Injector
 
@@ -20,7 +21,7 @@ in an existing file.
 
 # Usage
 
-Go to the releases page and decide between the GUI and CLI version. Download it and unzip it to your desired location.
+Go to the releases page and decide between the GUI and CLI version. Follow the instructions of the Setup Installer or download the archive and unzip it to your desired location.
 
 
 ## CLI Usage
