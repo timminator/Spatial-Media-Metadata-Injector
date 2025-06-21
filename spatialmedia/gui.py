@@ -387,7 +387,7 @@ def main():
     app_window.resizable(False, False)
 
     if platform.system() == "Windows":
-        myappid = 'mycompany.myproduct.subproduct.version'
+        myappid = 'SpatialMediaMetadataInjector'
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
         app_window.iconbitmap("Spatial Media Metadata Injector.ico")
     else:
